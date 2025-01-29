@@ -32,13 +32,13 @@ function findEmployeeById(employeeId) {
     else{
       document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this ID';
 
-    }
+    }}
 
 function findEmployeeBySpecialization(employeeSpecialization){
-         const foundSpecialization = employees.find(employee => employee.specialization === employeeSpecialization);
-         if (foundSpecialization){
-              document.getElementById('employeesDetails').innerHTML = `<p>${foundSpecialization.id}: ${foundSpecialization.name}: ${foundSpecialization.name} - ${foundSpecialization.department} - $${foundSpecialization.salary}</p>`;
-         } else {
-              document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this Specialization';
-         }
+    const foundSpecialization = employees.find(employee => employee.specialization === employeeSpecialization);
+    if (foundSpecialization){
+         document.getElementById('employeesDetails').innerHTML = `<p>${foundSpecialization.id}: ${foundSpecialization.name}: ${foundSpecialization.name} - ${foundSpecialization.department} - $${foundSpecialization.salary}</p>`;
+    } else {
+         document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this Specialization';
     }
+}

@@ -1,17 +1,20 @@
-{"newsArticle": [
-    {
-        "title": "Headline News",
-        "description": "Top, current news from around the world.",
-        "breaking_news": "Current news within the last hour."
-    },
-    {
-        "title": "Local News",
-        "description": "Top, current news from your part of the world.",
-        "breaking_news": "Current news within the last hour."
-    },
-    {
-        "title": "Weather Forcast",
-        "description": "Current weather forcasting from around the worl.d",
-        "local_forcast": "Current weather forcasting from your part of the world."
-    }
-]}
+{
+    "articles": [
+        {
+            "title": "Headline News",
+            "description": "Top, current news from around the world.",
+            "breaking_news": "Current news within the last hour."
+        },
+        {
+            "title": "Local News",
+            "description": "Top, current news from your part of the world.",
+            "breaking_news": "Current news within the last hour."
+        },
+        {
+            "title": "Weather Forcast",
+            "description": "Current weather forcasting from around the worl.d",
+            "local_forcast": "Current weather forcasting from your part of the world."
+        }
+    ]
+
+}
